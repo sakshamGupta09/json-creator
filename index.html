@@ -1,45 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="title" content="Json creator" />
-    <meta name="description" content="Json creator by Saksham Gupta" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Json creator" />
-    <meta property="og:url" content="https://sakshamgupta.vercel.app/" />
-    <meta property="og:description" content="Json creator by Saksham Gupta" />
-    <meta
-      property="og:image"
-      content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg"
-    />
-    <meta property="og:site_name" content="Json creator" />
-    <meta name="twitter:title" content="Json creator by Saksham Gupta" />
-    <meta name="twitter:description" content="Json creator by Saksham Gupta" />
-    <meta
-      name="twitter:image"
-      content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg"
-    />
-    <title>Json creator</title>
-    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="/styles/styles.css" />
-  </head>
-  <body>
-    <section class="parent-container" id="parent-container">
-      <div class="json__container">
-        <span data-type="close-row" class="json__caret">&#9660;</span>
-        <input type="text" placeholder="Key" name="key" class="json__input" />
-        <input type="text" placeholder="Value" name="value" class="json__input" />
-        <button data-type="add-row" class="json__btn">&#43;</button>
-      </div>
-    </section>
-    <script src="/scripts/index.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Json creator" />
+  <meta name="description" content="Json creator by Saksham Gupta" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Json creator" />
+  <meta property="og:url" content="https://sakshamgupta.vercel.app/" />
+  <meta property="og:description" content="Json creator by Saksham Gupta" />
+  <meta property="og:image" content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg" />
+  <meta property="og:site_name" content="Json creator" />
+  <meta name="twitter:title" content="Json creator by Saksham Gupta" />
+  <meta name="twitter:description" content="Json creator by Saksham Gupta" />
+  <meta name="twitter:image" content="https://sakshamgupta.vercel.app/assets/images/manOnTable.svg" />
+  <title>Json creator</title>
+  <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles/styles.css" />
+</head>
+
+<body>
+  <section class="parent-container" id="parent-container">
+    <div class="json__container">
+      <span data-type="close-row" class="json__caret">&#9660;</span>
+      <input type="text" placeholder="Key" name="key" class="json__input" />
+      <input type="text" placeholder="Value" name="value" class="json__input" />
+      <button data-type="add-row" class="json__btn">&#43;</button>
+    </div>
+    <button class="btn" id="get-json-btn">Get JSON</button>
+    <p class="json__text" id="json-value"></p>
+  </section>
+  <script src="/scripts/index.js"></script>
+</body>
+
 </html>

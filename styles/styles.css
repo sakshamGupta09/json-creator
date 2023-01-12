@@ -90,3 +90,19 @@ body {
 .json__caret:has(~ .json__sub-item) {
   display: inline-block;
 }
+
+.json__input[name="value"]:has(~ .json__sub-item) {
+  display: none;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  margin-top: 2rem;
+}
+
+.json__text {
+  margin-top: 2rem;
+  font-size: 1.125rem;
+  letter-spacing: 0.25rem;
+}
